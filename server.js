@@ -135,4 +135,4 @@ app.post('/api/messages/send', (req, res) => {
     res.json({ success: true });
 });
 
-app.listen(3000, () => console.log('Server läuft auf http://localhost:3000'));
+app.listen(3000, () => console.log('Server läuft auf https://crypto-box.onrender.com'));
